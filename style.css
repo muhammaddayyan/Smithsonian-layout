@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+      margin: 0;
+      padding: 0px 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+      background-color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+      height: 35px;
+      border-radius: 7px;
+    }
+
+    .translate, .search-box {
+      display: flex;
+      align-items: center;
+    }
+
+    .translate select {
+      font-size: 12px;
+      padding: 3px;
+    }
+
+    .translate img {
+      height: 15px;
+      margin-left: 5px;
+    }
+    
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .main{
+      padding: 0px 30px;
+      background-color: #eeeff1;
+    }
+
+    .icons img {
+      width: 18px;
+      height: 18px;
+    }
+    
+    .search-box input[type="text"] {
+      height: 20px;
+      font-size: 12px;
+      padding-left: 5px;
+    }
+
+    .search-box button {
+      height: 24px;
+      font-size: 12px;
+      margin-left: 3px;
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      padding: 0 10px;
+      cursor: pointer;
+    }
+    
+    .sec-bar{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      justify-content: space-between;
+    }
+
+    .smith-img{
+      width: 50px;
+      border-radius: 50px;
+    }
+    
+    .between{
+      margin-top: 20px;
+    }
+
+    .Smithsonian{
+      font-size: 50px;
+    }
+    
+    .sec-two{
+      display: flex;
+      align-items: center;
+    }
+
+    .dona{
+      display: flex;
+      align-items: center;
+      background-color: #a11f1f;
+      padding: 5px 9px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: white;
+      gap: 7px;
+    }
+    .dona-tw{
+      display: flex;
+      align-items: center;
+      background-color: #436333;
+      padding: 5px 9px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: white;
+      gap: 7px;
+    }
+    .dona-th{
+      display: flex;
+      align-items: center;
+      background-color: #50559a;
+      padding: 5px 9px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: white;
+      gap: 7px;
+    }
+
+    .sec-ch{
+      margin-top: 30px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: #ffffff;
+      border-bottom: 1px solid #ccc;
+      padding: 5px 10px;
+      justify-content: space-around;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-top: 10px;
+    }
+    .navbar a {
+      padding: 8px 12px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 14px;
+      border-right: 1px solid #ccc;
+    }
+    .navbar a:last-child {
+      border-right: none;
+    }
+    .navbar a:hover {
+      background-color: #f0f0f0;
+    }
+    
+
+    .navbar-two{
+      display: flex;
+      background-color: #0d6798;
+      border-bottom: 1px solid #ccc;
+      padding: 5px 10px;
+      justify-content: space-around;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    .navbar-two a {
+      padding: 8px 12px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 14px;
+      border-right: 1px solid #a8a8a8;
+    }
+    .navbar-two a:last-child {
+      border-right: none;
+    }
+
+    .big-img{
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .six-img{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .width{
+      width: 350px;
+    }
+
+    .six-text{
+      font-size: 25px;
+      margin-top: 2px;
+      text-decoration: none;
+    }
+
+    .dott{
+      font-size: 40px;
+    }
+
+    .main-six{
+      display: flex;
+      padding: 15px;
+      background-color: white;
+      justify-content: space-between;
+      border-radius: 10px;
+      margin-top: 5px;
+    }
