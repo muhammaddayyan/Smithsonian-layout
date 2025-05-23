@@ -5,7 +5,7 @@
 
 body {
       margin: 0;
-      padding: 0px 10px;
+      padding: 0px 30px;
       font-family: Arial, sans-serif;
     }
 
@@ -101,6 +101,7 @@ body {
       font-size: 13px;
       color: white;
       gap: 7px;
+      cursor: pointer;
     }
     .dona-tw{
       display: flex;
@@ -110,6 +111,7 @@ body {
       border-radius: 8px;
       font-size: 13px;
       color: white;
+      cursor: pointer;
       gap: 7px;
     }
     .dona-th{
@@ -120,7 +122,20 @@ body {
       border-radius: 8px;
       font-size: 13px;
       color: white;
+      cursor: pointer;
       gap: 7px;
+    }
+    
+    .dona-on-img{
+      width: 20px;
+    }
+
+    .dona-tw-img{
+      width: 20px;
+    }
+
+    .dona-th-img{
+      width: 20px;
     }
 
     .sec-ch{
@@ -188,10 +203,6 @@ body {
       flex-direction: column;
     }
 
-    .width{
-      width: 350px;
-    }
-
     .six-text{
       font-size: 25px;
       margin-top: 2px;
@@ -202,11 +213,122 @@ body {
       font-size: 40px;
     }
 
+    .width{
+    width: 230px; 
+    height: 200px;
+    border-radius: 10px;
+    }
+
     .main-six{
+    display: flex;
+    gap: 20px; 
+    padding: 15px;
+    background-color: white;
+    align-items: center; 
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 6px 0px 15px 5px rgb(199, 198, 198);
+    }
+
+    .footer{
       display: flex;
       padding: 15px;
       background-color: white;
       justify-content: space-between;
       border-radius: 10px;
-      margin-top: 5px;
+      margin-top: 20px;
+      gap: 15px;
+      box-shadow: 6px 0px 15px 5px rgb(199, 198, 198);
+    }
+
+    .foot-text{
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    .foot-para{
+      margin-top: 10px;
+      
+    }
+
+    .foot-link{
+      margin-top: 10px;
+      margin-left: 20px;
+      color: #426d93;
+      font-weight: 900;
+    }
+
+    .foot-img{
+      margin-top: 20px;
+    }
+
+    .foot-two{
+      margin-top: 10px;
+      margin-left: 15px;
+      color: #426d93;
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .foot-thre{
+      font-size: 20px;
+      font-weight: 100 ;
+      margin-left: 15px;
+    }
+
+    .one-ch{
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .foot-one-child{
+      display: flex;
+      align-items: center;
+      gap: 10px ;
+      margin-top: 25px;
+    }
+    
+    .foot-one-2-child{
+      gap: 10px ;
+      margin-top: 27px;
+      display: flex;
+      align-items: center;
+    }
+
+    .one-child-1-para{
+      margin-top: 10px;
+      color: #426d93;
+      font-weight: 900;
+      font-size: 14px;
+    }
+
+    .one-child-para-2{
+      font-size: 14px;
+      font-weight: 100  ;
+    }
+
+    .foot-four{
+      display: flex;
+      margin-top: 15px;
+    }
+
+    .foot-text-four{
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .foot-text-four-2{
+      font-size: 15px;
+      font-weight: 100  ;
+    }
+
+    .foot-text-four-last{
+      font-size: 18px;
+      margin-top: 22px;
+      color: #94a7bd;
+    }
+
+    .foot-one{
+      border-right: 1px solid black;
     }
